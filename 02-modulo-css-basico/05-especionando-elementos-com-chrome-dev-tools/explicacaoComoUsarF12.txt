@@ -1,0 +1,8 @@
+Navegar na pagina escolhida e clicar no f12 para abrir o "inspecionador do chrome
+clicar icone elementos
+clicar no icone para poder ativar o mause "caixinha com mause do lado"
+apos escolher o elemento clique em cima para poder marcar na aba elementos com cor azul claro para estar selecionado
+ma aba estilo faz a alteração que deseja exemplo trocar a cor de um botao 
+Nesta aba consegue fazer os teste descobri porque nao esta foncionando e muito mais
+
+OBS: lembrando que quando clicar no f5 todas as alterações voltara a forma uriginal;

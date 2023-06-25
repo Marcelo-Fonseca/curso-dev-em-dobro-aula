@@ -1,0 +1,19 @@
+div {
+    width: 100px;
+    height: 100px;
+    border: 10px solid green;
+}
+.com-border-box {
+    background-color: aquamarine;
+   box-sizing: border-box; 
+  /*largura +padding esquerda +pidding direita + border esquerda 
+  + border direita = largura total do elemento
+  
+  altura + padding de cima + padding de baixo +
+  border de cima + border de baixo = altura do elemento*/
+}
+.sem-border-box {
+    background-color: brown;
+    /*sem o border-box ele fica somenado tudo*/
+    /*Com o border-box ele faz exatamente o que e para fazer desconsiderando o calculos acima.*/
+}

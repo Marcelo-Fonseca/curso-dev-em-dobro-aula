@@ -1,0 +1,16 @@
+
+
+CSS3 Básico - Espaçamento externo com margin
+Nessa aula, vamos aprender sobre o margin, ela é uma propriedade muito importante que é utilizada em praticamente todos os sites. 
+
+O margin, basicamente adiciona espaços externo nos elementos, e podemos escrever de várias formas, como no exemplo abaixo:
+
+Adicionando margin em todos os lados separadamente (seguindo o sentido horário):
+
+margin: 30px 10px 5px 2px;
+
+estrutura: topo direita baixo esquerda
+
+Podemos escrever dessa forma ou praticamente utilizar margin: 30px; que será aplicado todos os lados do elemento. Não é obrigatório passar os 4 lados. 
+
+Nas próximas aulas, vamos ver sobre o modelo de caixa, ele nos ajudará muito a entender a aplicação dessa propriedade.

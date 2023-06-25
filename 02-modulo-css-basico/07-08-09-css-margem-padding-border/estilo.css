@@ -1,0 +1,23 @@
+p{
+    margin: 30px 15px;/*neste caso pega 1º no topo 2º em baixo 3 na direita 4º na esquerda*/
+}
+p{
+    margin: 30px; /*pega todos os lados iguais*/
+}
+/*quando todos os valores for diferentes seguir sentido horario emcima embaixo direita esquerda*/
+/*p {
+    margin: 30px 15px 30px 15px;
+    padding: 20px;
+    background-color: aquamarine;
+    border: solid;
+    border-style: solid;
+    border-top-color:green ;
+    border-bottom-color:orange ;
+    border-left-color:blueviolet ;
+    border-right-color:cyan ;
+}*/
+ /*pode ser usado maneira de uma so vez*/
+h1 {
+    border: solid;
+    border-color: green cyan orange blue;
+}
