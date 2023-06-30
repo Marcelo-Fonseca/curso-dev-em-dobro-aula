@@ -19,8 +19,68 @@
     <form  method="POST" action="index.html">
         <input type="text" name="q">
         <input type="submit" value="Enviar">
-
-
     </form>
+<!--criando formulario-->
+<!--Para deixar o campo obrigatorio tem que colocar o required-->
+<form action="idex.html" method="get" enctype="multipart/form-data">
+    <h3>Formulario de login no Facebook</h3>
+    <input type="text" name="nome" id="nome" placeholder="Nome">
+    <input type="text" name="sobrenme" id="sobrenme" placeholder="Sobrenome"><br>
+    <input type="text" name="celular-ou-email" placeholder="celular ou email">
+    <input type="password" name="senha" id="senha" placeholder="Senha"><br><br>
+
+   
+    <!--select DIA-->
+    <label for="">data de nascimento</label><br>
+    <select name="dia" id="dia" cols="4">
+        <option value="1">1</option>
+        <option value="2">2</option>
+        <option value="3">3</option>
+        <option value="4">4</option>
+        <option value="5">5</option>
+    </select>
+
+    <select name="mes" id="mes">
+        <option value="jan">jan</option>
+        <option value="fev">fev</option>
+        <option value="marc">marc</option>
+        <option value="abr">abr</option>
+        <option value="mai">mai</option>
+        <option value="jun">jun</option>
+        <option value="jul">jul</option>
+        <option value="ago">ago</option>
+        <option value="set">set</option>
+        <option value="out">out</option>
+        <option value="nov">nov</option>
+        <option value="dez">dez</option>
+    </select>
+
+    <select name="ano" id="ano">
+        <option value="2020">2020</option>
+        <option value="2021">2021</option>
+        <option value="2022">2022</option>
+        <option value="2023">2023</option>
+        <option value="2024">2024   </option>
+    </select><br><br>
+    <label for="">genero</label><br>
+    <label for="feminino">feminino</label>
+    <input type="radio" name="genero" id="feminino" value="feminino">
+
+    <label for="masculino">Masculino</label>
+    <input type="radio" name="genero" id="masculino" value="masculino">
+
+    <label for="personalizado">Personalizado</label>
+    <input type="radio" name="genero" id="personalizado" value="personalizado">
+
+    <input type="submit" value="enviar">
+    <br><br>
+
+    <!--incluir imagens-->
+    <input type="file">
+    <!--para poder funcionar e poder enviar essa imagen para o servidor
+        tem que incluir no form o `enctye multipart/forrm-data `-->
+
+
+</form>
 </body>
 </html>
