@@ -1,3 +1,23 @@
-body {
-    background-color: blueviolet;
+
+a{ 
+    cursor: progress;
+    margin: 20px;
+    padding: 10px;
+    color: white;
+}
+
+
+a {
+    cursor: pointer;
+ 
+}
+a:visited {
+    color: orange;
+}
+a:active {
+    color: red;
+}
+a:hover {
+    background-color: red;
+    color: white;
 }
