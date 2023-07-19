@@ -1,0 +1,22 @@
+.bg {
+    background-color: aquamarine;
+    background-image: url(./imagens/html-css-javascript.jpg);
+   
+   
+    background-repeat: no-repeat;
+   width: 100%;
+
+   
+
+   }
+
+   .bg-image {
+    width: 600px;
+    height: 300px;
+   }
+   p {
+    margin-top: 200px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 20px;
+
+   }
