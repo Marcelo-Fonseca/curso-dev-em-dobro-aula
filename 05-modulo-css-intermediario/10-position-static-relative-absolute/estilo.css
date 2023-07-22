@@ -1,0 +1,19 @@
+* {
+    margin: 0;
+}
+
+.elemento {
+    color: #fff;
+    font-size: 32px;
+    width: 250px;
+    height: 250px;
+    text-align: center;
+    margin-bottom: 20px;
+    background-color: red;
+}
+
+.elemento-estaico {
+    position: static;
+    background-color: crimson; 
+
+}
