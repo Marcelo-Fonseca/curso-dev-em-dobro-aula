@@ -36,4 +36,15 @@
     text-align: center;
 
 
+}.elemento-absoluto {
+    position: absolute;
+    background-color: rgb(208, 17, 215); 
+    left: 100px;
+    left: 100px;
+    width: 250px;
+    height: 250px;
+    color: #fff;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    text-align: center;
+
 }
