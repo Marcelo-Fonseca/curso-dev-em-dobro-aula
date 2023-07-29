@@ -12,8 +12,28 @@
     background-color: red;
 }
 
-.elemento-estaico {
+.elemento-estatico {
     position: static;
     background-color: crimson; 
+    left: 100px;
+    width: 250px;
+    height: 250px;
+    color: #fff;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    text-align: center;
+
+
+}
+.elemento-relativo {
+    position: relative;
+    background-color: rgb(62, 169, 66); 
+    left: 100px;
+    left: 100px;
+    width: 250px;
+    height: 250px;
+    color: #fff;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    text-align: center;
+
 
 }
