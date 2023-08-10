@@ -1,0 +1,21 @@
+@media (max-wigth: 576px) {
+    /*mudar de cor quando a tela estiver com menos de 576px*/
+    .cabecalho {
+        background-color: blue;
+    }
+}
+
+/*dispositivos pequenos (celulares em posiçãoi paisagem, menos de 768px*/
+@media (max-width: 768px) {
+    
+}
+/*dispositivos medios (tabletes, menos  de 992px*/
+@media (max-width: 992px) {
+    
+}
+/*dispositivos grandes (desktops, menos de 1200px*/
+@media (max-width: 1200px) {
+    
+}
+/*dispositivos extra grandes (desktops grandes acima de 1200px ou mais*/
+/*nao tem breackpoint*/

@@ -1,6 +1,0 @@
-@media (max-wigth: 576px) {
-    /*mudar de cor quando a tela estiver com menos de 576px*/
-    .cabecalho {
-        background-color: blue;
-    }
-}
