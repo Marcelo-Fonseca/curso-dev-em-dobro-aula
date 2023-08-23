@@ -1,0 +1,8 @@
+p:first-child {
+    color: blueviolet;
+}
+
+p:last-child {
+    font-size: 20px;
+    color: brown;
+}
