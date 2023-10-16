@@ -8,11 +8,17 @@ hr {
     
     width: 100%;
 }
+main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
 .container {
     display: flex;
     flex-direction: column;
     align-items: center;
-    justify-content: space-between;
+    justify-content: center;
+   
     gap: 25px;
     background-color: #fff;
     border-radius: 10px;
@@ -21,10 +27,13 @@ hr {
     height: 350px;
 
 }
+
+
+    
 .cartao .informacao {
     display: flex;
     flex-direction: column;
-    justify-content: space-around;
+    
     align-items: center;
     gap: 10px;
     height: 100%;
