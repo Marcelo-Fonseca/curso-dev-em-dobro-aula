@@ -1,0 +1,59 @@
+body {
+    background-color: var(--verde);
+    height: 100vh;
+    font-family: 'Kumbh Sans', sans-serif;
+    font-size: 18px;
+}
+hr {
+    
+    width: 100%;
+}
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    gap: 25px;
+    background-color: #fff;
+    border-radius: 10px;
+    margin: 20px;
+    width: 330px;
+    height: 350px;
+
+}
+.cartao .informacao {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    gap: 10px;
+    height: 100%;
+}
+.cartao .informacao {
+    color: var(--text-cinza);
+}
+
+.cartao img {
+    width: 150PX;
+    height: 150PX;
+    border-radius: 50%;
+    margin-top: 20px;
+}
+span .idade {
+    color: var(--text-cinza);
+}
+.inf-dados {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    width: 100%;
+    padding-bottom: 30px;
+    text-align: center;
+}
+.infor p {
+font-weight: 700;
+}
+.cont-total {
+    color: var(--text-cinza);
+}
+
