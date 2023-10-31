@@ -39,10 +39,24 @@ const obj2 = {
 console.log(obj2)
 
 //condicionais
-const idade ="18";
+
+const idade ="15";
 if(idade >= 18) {
     console.log("O usuario é maior de idade")
 }else {
     console.log("O usuario [é menor de idade")
 }
 
+// operador ternario
+//se essa condição  for verdade utiliza ? se não utiliza : 
+//condição ?promeiro : segundo
+
+idade >=18 ?  console.log("O usuario é maior de idade:)") :  console.log("O usuario é menor de idade;(")
+
+//função
+function soma(primeiro,segundo) {
+const resultado = 5+7+ primeiro + segundo
+return resultado
+}
+soma()
+console.log(soma(8,4))
