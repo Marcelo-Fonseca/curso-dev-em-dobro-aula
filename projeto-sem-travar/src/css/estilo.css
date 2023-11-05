@@ -1,0 +1,16 @@
+body {
+    background-color: var(--neutral-dark);
+}
+
+.main {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    }
+
+    .nft-card {
+        max-width: 346px;
+    }
+    .nft-card {
+        max-width: 346px;
+    }
