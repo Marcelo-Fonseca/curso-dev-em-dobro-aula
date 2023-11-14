@@ -10,7 +10,7 @@
     /*grid-template-rows: reprat(2, 150px);*/
     grid-template: repeat(1, 150px) / repeat(2,auto) ;
     grid-gap: 20px 10px;
-    grid-columm-gap: 10px;
+    
     grid-row-gap:50px;
 
 
