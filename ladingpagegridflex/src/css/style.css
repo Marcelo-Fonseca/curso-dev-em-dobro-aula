@@ -157,12 +157,7 @@ body {
     }
 
 
-    .about {
-        grid-template-columns: 1fr; 
-        grid-template-row: repeat(4, 1fr);
-
-        
-    }
+    
 
     
 
