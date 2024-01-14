@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="pt">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Painel de Instrumentos</title>
+<style>
+  body { font-family: Arial, sans-serif; }
+  .dashboard { display: flex; justify-content: space-around; padding: 20px; }
+  .instrument { text-align: center; }
+  .instrument h2 { margin-bottom: 10px; }
+  .instrument div { font-size: 2em; }
+</style>
+</head>
+<body>
+<div class="dashboard">
+  <div class="instrument">
+    <h2>Velocímetro</h2>
+    <div id="speedometer">0 km/h</div>
+  </div>
+  <div class="instrument">
+    <h2>Tacômetro</h2>
+    <div id="tachometer">0 RPM</div>
+  </div>
+  <!-- Adicione mais instrumentos conforme necessário -->
+</div>
+<script>
+// Aqui você pode adicionar o JavaScript para atualizar os valores dos instrumentos
+// Por exemplo, para o velocímetro:
+document.getElementById('speedometer').textContent = '100 km/h';
+// Você precisará de uma lógica para atualizar esses valores dinamicamente
+</script>
+</body>
+</html>
