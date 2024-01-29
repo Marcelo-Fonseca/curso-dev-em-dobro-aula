@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Dashboard Corsa</title>
+<style>
+  body { font-family: Arial, sans-serif; }
+  .dashboard { display: flex; justify-content: space-around; padding: 20px; }
+  .gauge { width: 100px; height: 100px; }
+  .gauge .dial { stroke: #eee; stroke-width: 10; fill: none; }
+  .gauge .value { stroke: #007bff; stroke-width: 10; fill: none; }
+</style>
+</head>
+<body>
+<div class="dashboard">
+  <svg class="gauge" viewbox="0 0 100 100">
+    <circle class="dial" cx="50" cy="50" r="45"></circle>
+    <circle class="value" cx="50" cy="50" r="45" stroke-dasharray="283" stroke-dashoffset="141.5"></circle>
+  </svg>
+  <!-- Repita os elementos SVG para outros medidores como combustível, temperatura, etc. -->
+</div>
+
+<script>
+// Função para atualizar os medidores (exemplo: velocímetro)
+function updateGauge(value, max) {
+  const gauge = document.querySelector('.gauge .value');
+  const dashOffset = (1 - (value / max)) * 283;
+  gauge.style.strokeDashoffset = dashOffset;
+}
+
+// Atualize o medidor com valores reais do veículo
+updateGauge(60, 180); // Exemplo: velocidade atual de 60 km/h
+</script>
+</body>
+</html>
