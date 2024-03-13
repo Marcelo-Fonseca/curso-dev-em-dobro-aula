@@ -1,0 +1,91 @@
+:root {
+    --background-color: hsl(185, 75%, 39%);
+    --text-color: hsl(227, 10%, 46%);
+}
+
+/*reset */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    background-color: hsl(185, 75%, 39%);
+}
+/*body */
+
+.container {
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+ 
+   
+}
+
+    .box {
+       
+        background-color: white;
+        width: 300px;
+        height: 350px;
+        margin: auto;
+        border-radius: 10px;
+        box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.10);
+
+    }
+
+    .foto img {
+        width: 120px;
+        height:120px;
+        border-radius: 50%;
+        border: 1px solid #cccccc;
+        margin: auto;
+        display: flex;
+        align-items: center;
+        margin-top: 30px;
+     
+    }
+     
+    .descricao p {
+      
+       margin: 20px;
+       display: flex;
+       align-items: center;
+       justify-content: center;
+       font-family: 'Kumbh Sans';
+       font-weight: 500;
+    }
+
+    .descricao span {
+        color: var(--text-color);
+        margin-left: 10px;
+    }
+    .cidade p{
+        color: var(--text-color);
+    }
+       
+    .linha span {
+        color: var(--background-color);
+
+    }
+     
+    .likes {
+        display: flex;
+        justify-content: space-around;
+    }
+     
+    .likes .itens p {
+        font-weight: 600;
+        color: black;
+    }
+     
+    
+   
+
+      
+   
+
+
+
+
