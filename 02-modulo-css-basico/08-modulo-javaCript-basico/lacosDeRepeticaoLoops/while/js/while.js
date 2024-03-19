@@ -8,7 +8,7 @@ while(a < b){
 
 }
 
-// do while = laço de repetição com teste logico no final 
+// do while = laço de repetição com teste logico no final  
 //do {
 //bloco de execução
 //}while(condição)
@@ -18,4 +18,5 @@ do{
     console.log('entrou ' + 1)
     i++
 }while(i <= 5)
-
+  //diferença do Do While que vai testar e depois execurar 
+//while vai executar e depois testar.
