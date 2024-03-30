@@ -28,3 +28,9 @@ for(let i = 0; i <= 10; i++){
     let y = i * 2 
     console.log('O dobro do numero x=' + i + ' é ' + y)
 }
+
+for(let i = 0; i <= 20; i++){
+    let y = i * 2 
+    console.log('O dobro do numero x=' + i + ' é ' + y)
+}
+
