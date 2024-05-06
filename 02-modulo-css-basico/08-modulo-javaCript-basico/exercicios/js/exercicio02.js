@@ -18,3 +18,6 @@ if(boletoPago) {
     alert('Boleto não está pago.')
 }
    
+}else if(boletoPago === false) {
+    alert('Boleto não está pago.')
+}
