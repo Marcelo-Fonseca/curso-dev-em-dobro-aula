@@ -62,3 +62,6 @@ soma()
 console.log(soma(8,4))
 soma()
 console.log(soma(8,4))
+
+soma()
+console.log(soma(8,4))
